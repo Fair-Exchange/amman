@@ -2,7 +2,7 @@ import {
   AccountDiff,
   isKeyLike,
   publicKeyString,
-} from '@metaplex-foundation/amman-client'
+} from '@j0nnyboi/amman-client'
 import {
   AccountInfo,
   Connection,
@@ -10,7 +10,7 @@ import {
   Keypair,
   Logs,
   PublicKey,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import BN from 'bn.js'
 import { diff } from 'deep-diff'

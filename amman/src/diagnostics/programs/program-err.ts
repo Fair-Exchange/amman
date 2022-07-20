@@ -1,5 +1,5 @@
 // https://raw.githubusercontent.com/solana-labs/solana/cd09390367d2ac66e2269a39cd40c4b3097c6732/explorer/src/utils/program-err.ts
-import { TransactionError } from '@solana/web3.js'
+import { TransactionError } from '@safecoin/web3.js'
 
 const instructionErrorMessage: Map<string, string> = new Map([
   ['GenericError', 'generic instruction error'],

@@ -11,7 +11,7 @@ import {
   SYSVAR_STAKE_HISTORY_PUBKEY,
   Secp256k1Program,
   Ed25519Program,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 
 export enum Cluster {
   Amman,

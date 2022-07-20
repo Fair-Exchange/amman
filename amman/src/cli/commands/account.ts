@@ -1,5 +1,5 @@
-import { LOCALHOST } from '@metaplex-foundation/amman-client'
-import { Connection, LAMPORTS_PER_SOL, PublicKey } from '@solana/web3.js'
+import { LOCALHOST } from '@j0nnyboi/amman-client'
+import { Connection, LAMPORTS_PER_SOL, PublicKey } from '@safecoin/web3.js'
 import { bold, dim, blueBright, green } from 'ansi-colors'
 import { strict as assert } from 'assert'
 // @ts-ignore no types available, but it's a simpler function

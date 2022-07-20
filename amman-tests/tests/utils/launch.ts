@@ -1,14 +1,14 @@
 import test, { Test } from 'tape'
 
-import { AmmanConfig } from '@metaplex-foundation/amman'
-import { AMMAN_RELAY_URI } from '@metaplex-foundation/amman-client'
-import { ConnectedAmmanClient } from '@metaplex-foundation/amman-client/src/amman-client'
+import { AmmanConfig } from '@j0nnyboi/amman'
+import { AMMAN_RELAY_URI } from '@j0nnyboi/amman-client'
+import { ConnectedAmmanClient } from '@j0nnyboi/amman-client/src/amman-client'
 import {
   completeConfig,
   DEFAULT_START_CONFIG,
-} from '@metaplex-foundation/amman/src/utils/config'
-import { initValidator } from '@metaplex-foundation/amman/src/validator/init-validator'
-import { AmmanStateInternal } from '@metaplex-foundation/amman/src/validator/types'
+} from '@j0nnyboi/amman/src/utils/config'
+import { initValidator } from '@j0nnyboi/amman/src/validator/init-validator'
+import { AmmanStateInternal } from '@j0nnyboi/amman/src/validator/types'
 
 const DEFAULT_TEST_CONFIG: Required<AmmanConfig> = { ...DEFAULT_START_CONFIG }
 

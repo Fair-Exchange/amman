@@ -1,4 +1,4 @@
-import { PublicKey } from '@solana/web3.js'
+import { PublicKey } from '@safecoin/web3.js'
 
 const captureSolanaAddressRx = /(\b[0-9a-zA-Z]{43,88})\b/g
 

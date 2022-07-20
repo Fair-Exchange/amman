@@ -1,4 +1,4 @@
-import { Commitment } from '@solana/web3.js'
+import { Commitment } from '@safecoin/web3.js'
 import { promises as fs } from 'fs'
 import { tmpdir } from 'os'
 import path from 'path'

@@ -1,4 +1,4 @@
-import * as AmmanClient from '@metaplex-foundation/amman-client'
+import * as AmmanClient from '@j0nnyboi/amman-client'
 
 export { tmpLedgerDir } from './utils'
 export { Change } from './accounts/state'
@@ -10,9 +10,9 @@ export * from './types'
 export {
   AmmanAccountRendererMap,
   LOCALHOST,
-} from '@metaplex-foundation/amman-client'
+} from '@j0nnyboi/amman-client'
 
 /**
- * @deprecated Use from _amman-client_ directly via `import { Amman } from '@metaplex-foundation/amman-client'`
+ * @deprecated Use from _amman-client_ directly via `import { Amman } from '@j0nnyboi/amman-client'`
  */
 export const Amman = AmmanClient.Amman

@@ -1,5 +1,5 @@
 {
-  "name": "@metaplex-foundation/amman-client",
+  "name": "@j0nnyboi/amman-client",
   "version": "0.1.0",
   "description": "Client piece of amman which supports with the running validator, relay and storage.",
   "main": "dist/amman-client.js",
@@ -40,9 +40,9 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@metaplex-foundation/cusper": "^0.0.2",
-    "@solana/spl-token-registry": "^0.2.2405",
-    "@solana/web3.js": "^1.43.4",
+    "@j0nnyboi/cusper": "^0.0.2",
+    "@safecoin/safe-token-registry": "^0.2.2405",
+    "@safecoin/web3.js": "^1.43.4",
     "bn.js": "^5.2.1",
     "debug": "^4.3.3",
     "js-sha3": "^0.8.0",

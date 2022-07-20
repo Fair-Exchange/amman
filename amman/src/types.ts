@@ -1,4 +1,4 @@
-import { AccountInfo } from '@solana/web3.js'
+import { AccountInfo } from '@safecoin/web3.js'
 import { SnapshotConfig } from './assets'
 import { RelayConfig } from './relay/types'
 import { StorageConfig } from './storage'
@@ -7,7 +7,7 @@ import { ValidatorConfig } from './validator/types'
 export {
   RelayAccountState,
   AccountDiff,
-} from '@metaplex-foundation/amman-client'
+} from '@j0nnyboi/amman-client'
 
 /**
  * Amman Config

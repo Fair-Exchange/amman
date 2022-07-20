@@ -1,10 +1,10 @@
-import { ErrorResolver } from '@metaplex-foundation/cusper'
+import { ErrorResolver } from '@j0nnyboi/cusper'
 import {
   Connection,
   Keypair,
   LAMPORTS_PER_SOL,
   PublicKey,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { AccountDataSerializer } from './assets/account-data-serializer'
 import { MutableAccount } from './assets/persistence'
 import {

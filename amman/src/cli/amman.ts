@@ -3,8 +3,8 @@ import {
   AMMAN_RELAY_PORT,
   AMMAN_STORAGE_PORT,
   Amman,
-} from '@metaplex-foundation/amman-client'
-import { Connection } from '@solana/web3.js'
+} from '@j0nnyboi/amman-client'
+import { Connection } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import { execSync as exec } from 'child_process'
 import path from 'path'

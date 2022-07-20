@@ -1,7 +1,7 @@
 import {
   LOCALHOST,
   AMMAN_STORAGE_PORT,
-} from '@metaplex-foundation/amman-client'
+} from '@j0nnyboi/amman-client'
 import { execSync as exec } from 'child_process'
 import http from 'http'
 import { mapPersistedAccountInfos } from '../assets'

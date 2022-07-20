@@ -1,8 +1,8 @@
 import {
   LOCALHOST,
   PersistedAccountInfo,
-} from '@metaplex-foundation/amman-client'
-import { AccountInfo, Connection, Keypair, PublicKey } from '@solana/web3.js'
+} from '@j0nnyboi/amman-client'
+import { AccountInfo, Connection, Keypair, PublicKey } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import { promises as fs } from 'fs'
 import { tmpdir } from 'os'

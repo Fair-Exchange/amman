@@ -26,8 +26,8 @@ import {
   MSG_RESPOND_LOAD_SNAPSHOT,
   MSG_REQUEST_VALIDATOR_PID,
   MSG_RESPOND_VALIDATOR_PID,
-} from '@metaplex-foundation/amman-client'
-import { AccountInfo, Keypair, PublicKey } from '@solana/web3.js'
+} from '@j0nnyboi/amman-client'
+import { AccountInfo, Keypair, PublicKey } from '@safecoin/web3.js'
 import { createServer, Server as HttpServer } from 'http'
 import { AddressInfo } from 'net'
 import { Server, Socket } from 'socket.io'

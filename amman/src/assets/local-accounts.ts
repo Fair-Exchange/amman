@@ -1,5 +1,5 @@
-import { isValidPublicKeyAddress } from '@metaplex-foundation/amman-client'
-import { PublicKey } from '@solana/web3.js'
+import { isValidPublicKeyAddress } from '@j0nnyboi/amman-client'
+import { PublicKey } from '@safecoin/web3.js'
 import { spawnSync } from 'child_process'
 import path from 'path'
 import { logError, logInfo } from '../utils'

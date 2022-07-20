@@ -1,4 +1,4 @@
-import { AMMAN_DEFAULT_MOCK_STORAGE_ID } from '@metaplex-foundation/amman-client'
+import { AMMAN_DEFAULT_MOCK_STORAGE_ID } from '@j0nnyboi/amman-client'
 
 export const ContentTypes = [
   'image/jpeg',

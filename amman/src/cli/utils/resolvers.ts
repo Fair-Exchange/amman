@@ -1,7 +1,7 @@
 import {
   Amman,
   isValidPublicKeyAddress,
-} from '@metaplex-foundation/amman-client'
+} from '@j0nnyboi/amman-client'
 import { logTrace } from '../../utils'
 
 export function cliAmmanInstance() {

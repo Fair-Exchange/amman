@@ -1,5 +1,5 @@
 {
-  "name": "@metaplex-foundation/amman-tests",
+  "name": "@j0nnyboi/amman-tests",
   "version": "0.0.0",
   "description": "Tests for amman.",
   "scripts": {
@@ -16,8 +16,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@metaplex-foundation/amman": "*",
-    "@metaplex-foundation/amman-client": "*"
+    "@j0nnyboi/amman": "*",
+    "@j0nnyboi/amman-client": "*"
   },
   "devDependencies": {
     "@types/tape": "^4.13.2",

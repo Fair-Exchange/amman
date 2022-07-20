@@ -2,8 +2,8 @@ import {
   Amman,
   isValidSolanaAddress,
   LOCALHOST,
-} from '@metaplex-foundation/amman-client'
-import { Commitment, Connection, PublicKey } from '@solana/web3.js'
+} from '@j0nnyboi/amman-client'
+import { Commitment, Connection, PublicKey } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import path from 'path'
 import { commitments, logDebug, logInfo } from '../../utils'

@@ -1,5 +1,5 @@
-import { PersistedAccountInfo } from '@metaplex-foundation/amman-client'
-import { Keypair } from '@solana/web3.js'
+import { PersistedAccountInfo } from '@j0nnyboi/amman-client'
+import { Keypair } from '@safecoin/web3.js'
 import { ChildProcess, spawn } from 'child_process'
 import { AccountStates } from 'src/accounts/state'
 import { createTemporarySnapshot, SnapshotConfig } from '../assets'

@@ -1,4 +1,4 @@
-import { Keypair, PublicKey, Signer } from '@solana/web3.js'
+import { Keypair, PublicKey, Signer } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import { AmmanClient, ConnectedAmmanClient } from '../relay/client'
 import {

@@ -1,4 +1,4 @@
-import { Commitment } from '@solana/web3.js'
+import { Commitment } from '@safecoin/web3.js'
 import { ChildProcess } from 'child_process'
 import { RelayServer } from 'src/relay/server'
 import { AmmanConfig } from '../types'

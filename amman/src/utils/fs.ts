@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js'
+import { Keypair } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import { R_OK } from 'constants'
 import fs from 'fs'

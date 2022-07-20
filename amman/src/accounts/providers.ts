@@ -4,9 +4,9 @@ import {
   publicKeyString,
   Amman,
   AmmanAccountRendererMap,
-} from '@metaplex-foundation/amman-client'
-import { getAccount, getMint, Mint, Account } from '@solana/spl-token'
-import { AccountInfo, Connection, PublicKey } from '@solana/web3.js'
+} from '@j0nnyboi/amman-client'
+import { getAccount, getMint, Mint, Account } from '@safecoin/safe-token'
+import { AccountInfo, Connection, PublicKey } from '@safecoin/web3.js'
 import BN from 'bn.js'
 import numeral from 'numeral'
 import { AmmanAccount, AmmanAccountProvider } from '../types'

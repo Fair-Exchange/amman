@@ -1,11 +1,11 @@
-import type { ErrorResolver } from '@metaplex-foundation/cusper'
+import type { ErrorResolver } from '@j0nnyboi/cusper'
 import {
   ConfirmOptions,
   Connection,
   Keypair,
   Signer,
   Transaction,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { AddressLabels } from '../diagnostics/address-labels'
 import { ConfirmedTransactionAssertablePromise } from './confirmed-transaction-assertable-promise'
 import { defaultConfirmOptions } from './consts'

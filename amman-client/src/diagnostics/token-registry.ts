@@ -4,7 +4,7 @@ import {
   TokenInfoMap,
   TokenListContainer,
   TokenListProvider,
-} from '@solana/spl-token-registry'
+} from '@safecoin/safe-token-registry'
 
 let tokenRegistry: TokenInfoMap | undefined = undefined
 

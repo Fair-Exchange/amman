@@ -1,9 +1,9 @@
-import type { ErrorResolver } from '@metaplex-foundation/cusper'
+import type { ErrorResolver } from '@j0nnyboi/cusper'
 import {
   Connection,
   TransactionResponse,
   TransactionSignature,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import {
   Assert,

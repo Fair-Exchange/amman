@@ -3,7 +3,7 @@ import {
   ParsedMessageAccount,
   PublicKey,
   TransactionSignature,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import BN from 'bn.js'
 import table from 'text-table'
 import { AddressLabels } from './address-labels'

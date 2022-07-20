@@ -1,5 +1,5 @@
-import { PersistedAccountInfo } from '@metaplex-foundation/amman-client'
-import { Keypair } from '@solana/web3.js'
+import { PersistedAccountInfo } from '@j0nnyboi/amman-client'
+import { Keypair } from '@safecoin/web3.js'
 import { promises as fs } from 'fs'
 import path from 'path'
 import {
