@@ -2,7 +2,7 @@ import { ErrorResolver } from '@j0nnyboi/cusper'
 import {
   Connection,
   Keypair,
-  LAMPORTS_PER_SOL,
+  LAMPORTS_PER_SAFE,
   PublicKey,
 } from '@safecoin/web3.js'
 import { AccountDataSerializer } from './assets/account-data-serializer'
@@ -156,7 +156,7 @@ export class Amman {
   async airdrop(connection: Connection, publicKey: PublicKey, sol = 1) {
     const sig = await connection.requestAirdrop(
       publicKey,
-      sol * LAMPORTS_PER_SOL
+      sol * LAMPORTS_PER_SAFE
     )
     const receiverLabel = await this.addr.resolveRemoteAddress(publicKey)
     const receiver = receiverLabel == null ? '' : ` -> ${receiverLabel}`

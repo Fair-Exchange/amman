@@ -40,9 +40,9 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@j0nnyboi/cusper": "^0.0.2",
-    "@safecoin/safe-token-registry": "^0.2.2405",
-    "@safecoin/web3.js": "^1.43.4",
+    "@j0nnyboi/cusper": "^0.0.1",
+    "@safecoin/safe-token-registry": "^0.2.294",
+    "@safecoin/web3.js": "^1.44.0",
     "bn.js": "^5.2.1",
     "debug": "^4.3.3",
     "js-sha3": "^0.8.0",

@@ -2,3 +2,6 @@ dist/
 .idea/
 yarn.lock
 **/yarn.lock
+amman-client/node_modules/
+amman/node_modules/
+node_modules/

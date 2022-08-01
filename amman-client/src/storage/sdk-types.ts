@@ -1,4 +1,4 @@
-import { LAMPORTS_PER_SOL } from '@safecoin/web3.js'
+import { LAMPORTS_PER_SAFE } from '@safecoin/web3.js'
 import BN from 'bn.js'
 
 // TODO(thlorenz): Copied from SDK for now until a version with those types is published
@@ -75,7 +75,7 @@ export const lamports = (lamports: number | BN): Amount => {
 }
 
 export const sol = (sol: number): Amount => {
-  return lamports(sol * LAMPORTS_PER_SOL)
+  return lamports(sol * LAMPORTS_PER_SAFE)
 }
 
 export const toBasisPoints = (value: number | BN): BasisPoints => {
