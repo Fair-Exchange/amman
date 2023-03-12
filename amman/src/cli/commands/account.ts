@@ -1,5 +1,5 @@
 import { LOCALHOST } from '@safecoin/amman-client'
-import { Connection, LAMPORTS_PER_SOL, PublicKey } from '@safecoin/web3.js'
+import { Connection, LAMPORTS_PER_SAFE, PublicKey } from '@safecoin/web3.js'
 import { bold, dim, blueBright, green } from 'ansi-colors'
 import { strict as assert } from 'assert'
 // @ts-ignore no types available, but it's a simpler function
@@ -45,7 +45,7 @@ export async function handleAccountCommand(
       )
     }
     const len = accountInfo.data.length
-    const sol = accountInfo.lamports / LAMPORTS_PER_SOL
+    const sol = accountInfo.lamports / LAMPORTS_PER_SAFE
 
     const accountStates = await tryResolveAccountStates(pubkey)
     const rawData =
