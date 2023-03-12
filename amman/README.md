@@ -83,7 +83,7 @@ A _mock storage_ is launched only if a `storage` config is provided. In case a s
 is already running on the known _storage port_, it is killed first.
 
 ```js
-import { LOCALHOST, tmpLedgerDir } from '@j0nnyboi/amman'
+import { LOCALHOST, tmpLedgerDir } from '@safecoin/amman'
 
 module.exports = {
   validator: {

@@ -1,4 +1,4 @@
-import { LOCALHOST } from '@j0nnyboi/amman-client'
+import { LOCALHOST } from '@safecoin/amman-client'
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from '@safecoin/web3.js'
 import { bold, dim, blueBright, green } from 'ansi-colors'
 import { strict as assert } from 'assert'

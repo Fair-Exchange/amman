@@ -1,4 +1,4 @@
-import { Amman } from '@j0nnyboi/amman-client'
+import { Amman } from '@safecoin/amman-client'
 import { strict as assert } from 'assert'
 
 export async function handleLabelCommand(labels: string[]) {

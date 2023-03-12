@@ -1,5 +1,5 @@
 {
-  "name": "@j0nnyboi/amman",
+  "name": "@safecoin/amman",
   "version": "0.10.0",
   "description": "A modern mandatory toolbelt to help test solana SDK libraries and apps on a locally running validator.",
   "main": "dist/amman.js",
@@ -43,7 +43,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@j0nnyboi/amman-client": "^0.1.0",
+    "@safecoin/amman-client": "^0.1.0",
     "@safecoin/safe-token": "^0.2.0",
     "@safecoin/web3.js": "^1.43.4",
     "ansi-colors": "^4.1.1",

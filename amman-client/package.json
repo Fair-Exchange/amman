@@ -1,5 +1,5 @@
 {
-  "name": "@j0nnyboi/amman-client",
+  "name": "@safecoin/amman-client",
   "version": "0.1.0",
   "description": "Client piece of amman which supports with the running validator, relay and storage.",
   "main": "dist/amman-client.js",
@@ -40,7 +40,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@j0nnyboi/cusper": "^0.0.1",
+    "@safecoin/cusper": "^0.0.1",
     "@safecoin/safe-token-registry": "^0.2.294",
     "@safecoin/web3.js": "^1.44.0",
     "bn.js": "^5.2.1",

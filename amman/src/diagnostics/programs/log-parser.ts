@@ -1,5 +1,5 @@
 // https://github.com/solana-labs/solana/blob/cd09390367d2ac66e2269a39cd40c4b3097c6732/explorer/src/utils/program-logs.ts
-import { Amman } from '@j0nnyboi/amman-client'
+import { Amman } from '@safecoin/amman-client'
 import { TransactionError } from '@safecoin/web3.js'
 import { getTransactionInstructionError } from './program-err'
 import { Cluster, programLabel } from './program-names'

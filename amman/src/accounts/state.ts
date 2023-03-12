@@ -2,7 +2,7 @@ import {
   AccountDiff,
   isKeyLike,
   publicKeyString,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import {
   AccountInfo,
   Connection,

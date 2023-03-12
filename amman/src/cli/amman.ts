@@ -3,7 +3,7 @@ import {
   AMMAN_RELAY_PORT,
   AMMAN_STORAGE_PORT,
   Amman,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import { Connection } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import { execSync as exec } from 'child_process'

@@ -1,4 +1,4 @@
-import { isValidPublicKeyAddress } from '@j0nnyboi/amman-client'
+import { isValidPublicKeyAddress } from '@safecoin/amman-client'
 import { PublicKey } from '@safecoin/web3.js'
 import { spawnSync } from 'child_process'
 import path from 'path'

@@ -1,7 +1,7 @@
 import {
   LOCALHOST,
   AMMAN_STORAGE_PORT,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import { execSync as exec } from 'child_process'
 import http from 'http'
 import { mapPersistedAccountInfos } from '../assets'

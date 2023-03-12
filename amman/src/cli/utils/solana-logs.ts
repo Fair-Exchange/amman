@@ -1,4 +1,4 @@
-import { Amman, LOCALHOST } from '@j0nnyboi/amman-client'
+import { Amman, LOCALHOST } from '@safecoin/amman-client'
 import colors from 'ansi-colors'
 import { spawn } from 'child_process'
 import split from 'split2'

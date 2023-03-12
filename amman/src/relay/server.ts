@@ -26,7 +26,7 @@ import {
   MSG_RESPOND_LOAD_SNAPSHOT,
   MSG_REQUEST_VALIDATOR_PID,
   MSG_RESPOND_VALIDATOR_PID,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import { AccountInfo, Keypair, PublicKey } from '@safecoin/web3.js'
 import { createServer, Server as HttpServer } from 'http'
 import { AddressInfo } from 'net'

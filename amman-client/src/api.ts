@@ -1,4 +1,4 @@
-import { ErrorResolver } from '@j0nnyboi/cusper'
+import { ErrorResolver } from '@safecoin/cusper'
 import {
   Connection,
   Keypair,

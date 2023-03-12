@@ -1,5 +1,5 @@
 {
-  "name": "@j0nnyboi/amman-tests",
+  "name": "@safecoin/amman-tests",
   "version": "0.0.0",
   "description": "Tests for amman.",
   "scripts": {
@@ -16,8 +16,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@j0nnyboi/amman": "*",
-    "@j0nnyboi/amman-client": "*"
+    "@safecoin/amman": "*",
+    "@safecoin/amman-client": "*"
   },
   "devDependencies": {
     "@types/tape": "^4.13.2",

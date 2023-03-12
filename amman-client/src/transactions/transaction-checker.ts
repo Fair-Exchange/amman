@@ -1,4 +1,4 @@
-import type { ErrorResolver } from '@j0nnyboi/cusper'
+import type { ErrorResolver } from '@safecoin/cusper'
 import {
   Connection,
   TransactionResponse,

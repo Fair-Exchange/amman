@@ -4,7 +4,7 @@ import {
   publicKeyString,
   Amman,
   AmmanAccountRendererMap,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import { getAccount, getMint, Mint, Account } from '@safecoin/safe-token'
 import { AccountInfo, Connection, PublicKey } from '@safecoin/web3.js'
 import BN from 'bn.js'

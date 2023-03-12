@@ -1,4 +1,4 @@
-import { PersistedAccountInfo } from '@j0nnyboi/amman-client'
+import { PersistedAccountInfo } from '@safecoin/amman-client'
 import { Keypair } from '@safecoin/web3.js'
 import { promises as fs } from 'fs'
 import path from 'path'

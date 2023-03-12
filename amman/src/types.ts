@@ -7,7 +7,7 @@ import { ValidatorConfig } from './validator/types'
 export {
   RelayAccountState,
   AccountDiff,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 
 /**
  * Amman Config

@@ -1,4 +1,4 @@
-import { PersistedAccountInfo } from '@j0nnyboi/amman-client'
+import { PersistedAccountInfo } from '@safecoin/amman-client'
 import { Keypair } from '@safecoin/web3.js'
 import { ChildProcess, spawn } from 'child_process'
 import { AccountStates } from 'src/accounts/state'

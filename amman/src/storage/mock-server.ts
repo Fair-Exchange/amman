@@ -1,4 +1,4 @@
-import { AMMAN_STORAGE_PORT } from '@j0nnyboi/amman-client'
+import { AMMAN_STORAGE_PORT } from '@safecoin/amman-client'
 import fs from 'fs'
 import http, {
   IncomingMessage,

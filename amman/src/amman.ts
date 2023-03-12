@@ -1,4 +1,4 @@
-import * as AmmanClient from '@j0nnyboi/amman-client'
+import * as AmmanClient from '@safecoin/amman-client'
 
 export { tmpLedgerDir } from './utils'
 export { Change } from './accounts/state'
@@ -10,9 +10,9 @@ export * from './types'
 export {
   AmmanAccountRendererMap,
   LOCALHOST,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 
 /**
- * @deprecated Use from _amman-client_ directly via `import { Amman } from '@j0nnyboi/amman-client'`
+ * @deprecated Use from _amman-client_ directly via `import { Amman } from '@safecoin/amman-client'`
  */
 export const Amman = AmmanClient.Amman

@@ -2,7 +2,7 @@ import {
   Amman,
   isValidSolanaAddress,
   LOCALHOST,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import { Commitment, Connection, PublicKey } from '@safecoin/web3.js'
 import { strict as assert } from 'assert'
 import path from 'path'

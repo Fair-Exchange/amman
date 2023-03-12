@@ -1,4 +1,4 @@
-import type { MaybeErrorWithCode } from '@j0nnyboi/cusper'
+import type { MaybeErrorWithCode } from '@safecoin/cusper'
 import {
   Connection,
   PublicKey,
@@ -13,7 +13,7 @@ import {
 } from '@safecoin/web3.js'
 import { Assert, assertContainMessages } from '../asserts/asserts'
 
-export type { MaybeErrorWithCode } from '@j0nnyboi/cusper'
+export type { MaybeErrorWithCode } from '@safecoin/cusper'
 
 /** @private */
 export type ErrorFromProgramLogs = (logs: string[]) => MaybeErrorWithCode

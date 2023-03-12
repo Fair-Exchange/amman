@@ -1,7 +1,7 @@
 import {
   Amman,
   isValidPublicKeyAddress,
-} from '@j0nnyboi/amman-client'
+} from '@safecoin/amman-client'
 import { logTrace } from '../../utils'
 
 export function cliAmmanInstance() {
