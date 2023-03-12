@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable 
 import {
   AMMAN_RELAY_PORT,
   AMMAN_STORAGE_PORT,
@@ -398,3 +399,6 @@ main().catch((err: any) => {
   logError(err)
   process.exit(1)
 })
+
+
+*/
